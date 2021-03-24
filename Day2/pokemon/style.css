@@ -1,0 +1,42 @@
+body {
+    font-family: 'Syne Mono', 'Roboto Mono', monospace;
+    background-color: #e9c46a;
+    background-image: url("https://wallpapercave.com/wp/wp7280723.jpg");
+    max-height: 854px;
+    text-align: center;
+    cursor:initial;
+    background-size: cover;
+    background-position: center top;
+}
+
+h1 {
+    text-align: center;
+    color: #ffb703;
+}
+
+button {
+    padding: 5px;
+    color: #06d6a0;
+    border-radius: 4px;
+    border:none;
+    background:#d8f3dc;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    transition: background-color 0.2s;
+    cursor: pointer;
+    transition-timing-function: ease-in;
+    transition: 1s;
+    border: none;
+    background: #b7e4c7;
+
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    background: #f0efeb;
+  }
