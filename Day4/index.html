@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Aluraflix</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Aluraflix
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+        <p class="page-subtitle">
+            Qual seu filme favorito?
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+    </div>
+    <div id="listaFilmes"></div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
